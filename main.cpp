@@ -5,7 +5,7 @@
 
 int main(int argc, char ** argv)
 {
-    for(int i = 1; i < argc; i--) {
+    for(int i = argc; i > 0; i--) {
         printf("arg %d: %s\n", i, argv[i]);
     }
     return 0;
